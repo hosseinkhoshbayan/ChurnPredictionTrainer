@@ -1,12 +1,12 @@
-<h2> 📊 Customer Churn Prediction with ML.NET and ASP.NET Core 9 </h2>
+<h2> 📊 Customer Churn Prediction with ML.NET and .NET 9 </h2>
 <hr>
 This project predicts whether a customer is likely to churn using machine learning in .NET. It includes:</br>
 
 A model training console application using ML.NET<br>
-An ASP.NET Core 8 Web API for serving predictions
+An .NET Core 9 Web API for serving predictions
 <hr>
 <h3>🚀 Project Structure</h3><br>
-CustomerChurnPrediction-MLNet-ASPNET/ │ ├── ChurnPredictionTrainer/ # Console app for model training │ └── customer_data.csv # Sample training dataset │ └── churn_model.zip # Trained model (saved after training) │ ├── ChurnPredictionAPI/ # ASP.NET Core 8 Web API │ └── Controllers/ │ └── Models/ │ └── Services/ │ └── README.md
+CustomerChurnPrediction-MLNet-ASPNET/ │ ├── ChurnPredictionTrainer/ # Console app for model training │ └── customer_data.csv # Sample training dataset │ └── churn_model.zip # Trained model (saved after training) │ ├── ChurnPredictionAPI/ # .NET 9 Web API │ └── Controllers/ │ └── Models/ │ └── Services/ │ └── README.md
 <hr>
 <h3>🧠 ML Task</h3><br>
 Type: Binary Classification<br>
@@ -75,11 +75,11 @@ Response:
 
 🛠 Tech Stack
 
-.NET 8
+.NET 9
 
 ML.NET
 
-ASP.NET Core 9 Web API
+.NET 9 Web API
 
 Visual Studio 2022
 
